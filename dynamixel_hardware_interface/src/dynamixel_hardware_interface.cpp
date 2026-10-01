@@ -1511,7 +1511,7 @@ namespace dynamixel_hardware_interface
         // 매 컨트롤 사이클마다 상태를 먼저 읽어(1패킷) 최신 값을
         // hasBlockingHardwareErrorStatus 판단 및 퍼블리시에 반영한다.
         
-        readMotorStatuses();
+        // readMotorStatuses();
 
         dynamixel_hardware_msgs::msg::DynamixelControlMsgs::SharedPtr
             latest_control_msg;
